@@ -11,5 +11,4 @@ public class DominoPiling {
 
         System.out.println((m * n) / 2);
     }
-
 }
