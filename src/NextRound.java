@@ -11,7 +11,7 @@ public class NextRound {
 
         String[] contestants = scan.nextLine().split(" ");
 
-        int targetScore = Integer.parseInt(contestants[k]);
+        int targetScore = Integer.parseInt(contestants[k - 1]);
 
         int winners = 0;
 
