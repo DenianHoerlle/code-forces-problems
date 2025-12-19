@@ -2,6 +2,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
 
+// https://codeforces.com/problemset/problem/160/A
 public class Twins {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
