@@ -7,7 +7,7 @@ public class DominoPiling {
         String[] firstLine = scan.nextLine().split(" ");
 
         int m = Integer.parseInt(firstLine[0]);
-        int n = Integer.parseInt(firstLine[0]);
+        int n = Integer.parseInt(firstLine[1]);
 
         System.out.println((m * n) / 2);
     }
