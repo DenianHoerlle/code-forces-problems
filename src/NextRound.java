@@ -15,11 +15,9 @@ public class NextRound {
 
         int winners = 0;
 
-        if (targetScore != 0) {
-            for (int i = 0; i < n; i++) {
-                int currentScore = Integer.parseInt(contestants[i]);
-                if  (currentScore >= targetScore) winners++;
-            }
+        for (int i = 0; i < n; i++) {
+            int currentScore = Integer.parseInt(contestants[i]);
+            if  (currentScore != 0 && currentScore >= targetScore) winners++;
         }
 
         System.out.println(winners);
